@@ -42,7 +42,6 @@
         last = Date.now()
     }
 
-    exports.SelfSufficient = SelfSufficient
     function SelfSufficient(tag, attrs) {
         if (typeof tag !== "string") tag = "div"
         if (typeof attrs !== "object" || attrs == null) attrs = undefined
